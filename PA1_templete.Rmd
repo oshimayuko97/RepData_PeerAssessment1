@@ -62,7 +62,7 @@ From the above graph, we can easily find that there are missing values. They may
 
 We need to find out the specific interval during which has the most steps taken.
 
-```{r}
+```{r, echo=TRUE}
 datetime[grep(max(activity$steps,na.rm=TRUE),activity$steps)]
 ```
 
