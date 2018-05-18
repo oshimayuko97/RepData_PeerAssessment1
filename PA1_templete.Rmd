@@ -2,7 +2,10 @@
 title: "Assignment 1"
 author: "Zhong Qihui"
 date: "2018.05.11"
-output: html_document
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 # Assignment 1
